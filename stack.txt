@@ -1,0 +1,27 @@
+React JS (react-content-loader,react-router-dom,react-hot-toast, react-icons, react-loader-spinner, react OAuth Google, react stripe JS и stripe JS, react confetti)
+TypeScript
+Redux
+TailwindCSS
+Vite
+Axios
+ESLint и Prettier
+
+Бэкенд:
+
+Express.js: Фреймворк для создания веб-приложений на Node.js.
+Mongoose: Библиотека для работы с MongoDB, представляющая собой объектно-ориентированное средство моделирования MongoDB.
+bcrypt: Для хеширования паролей.
+Cors: Для обеспечения безопасности и разрешения кросс-доменных запросов.
+Dotenv: Для загрузки переменных среды из файла .env.
+Express Async Handler: Для обработки асинхронных операций в обработчиках маршрутов.
+Jsonwebtoken: Для создания и проверки JSON Web Tokens.
+Multer: Для обработки multipart/form-data, используется, вероятно, для загрузки файлов.
+Mailgun JS: Для отправки электронной почты через сервис Mailgun.
+Cloudinary: Для загрузки и управления медиа-ресурсами в облаке.
+Moment: Для работы с датами и временем.
+Streamifier: Вероятно, используется для обработки потоков данных.
+Другие инструменты:
+Generate Password: Для генерации случайных паролей.
+Stripe: Для интеграции платежной системы Stripe.
+Инструменты разработки:
+Nodemon: Для автоматической перезагрузки сервера при изменениях в коде.
