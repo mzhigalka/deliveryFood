@@ -23,7 +23,6 @@ export interface GoogleUser {
     token: string
 }
 
-
 export interface User {
     _id: string,
     name: string,

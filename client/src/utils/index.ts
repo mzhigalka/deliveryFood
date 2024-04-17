@@ -49,7 +49,7 @@ export const removePizzaItem = async (id: string, token: string) => {
 
 export const createOrder = async (newOrder: CurrentOrder) => {
     try {
-        const {data} = await axios.post(`${baseUrl}/api/orders`, { newOrder })
+        const { data } = await axios.post(`${baseUrl}/api/orders`, { newOrder })
         return data
     } catch (err) {
         console.log(err);

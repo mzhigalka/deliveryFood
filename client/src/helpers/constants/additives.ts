@@ -16,7 +16,7 @@ export const additives: AdditionalProduct[] = [
         price: 12,
         quantity: 1,
         category: "other"
-        
+
     },
     {
         _id: "3",

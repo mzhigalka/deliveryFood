@@ -65,7 +65,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">Київ, вулиця Перемоги 31а</p>
           </div>
           <p className="text-black text-md font-medium">
-            Усі права захищені © 2023
+            Усі права захищені © 2024
           </p>
         </div>
         <div>

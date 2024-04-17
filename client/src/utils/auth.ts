@@ -20,7 +20,7 @@ export const registerUser = createAsyncThunk("registerUser", async (user: UserIn
         const { data } = await axios.post(`${baseUrl}/api/users/signup`, {
             name, email, password
         })
-        
+
         return data
     } catch (err) {
         console.log(err);
@@ -28,28 +28,28 @@ export const registerUser = createAsyncThunk("registerUser", async (user: UserIn
 })
 
 export const userLogin = createAsyncThunk("loginUser", async (user: LoginUser) => {
-try {
-    const { email, password } = user
-    const { data } = await axios.post(`${baseUrl}/api/users/signin`, {
-        email, password
-    })
+    try {
+        const { email, password } = user
+        const { data } = await axios.post(`${baseUrl}/api/users/signin`, {
+            email, password
+        })
 
-    return data
-    
-} catch (err) {
-    console.log(err);
-}
+        return data
+
+    } catch (err) {
+        console.log(err);
+    }
 })
 
 export const googleUserLogin = createAsyncThunk("googleUserLogin", async (googleUser: GoogleUser) => {
-try {
-    const { name, email } = googleUser;
-    const { data } = await axios.post(`${baseUrl}/api/users/googleUsers/signin`, {
-        name, email
-    })
+    try {
+        const { name, email } = googleUser;
+        const { data } = await axios.post(`${baseUrl}/api/users/googleUsers/signin`, {
+            name, email
+        })
 
-    return data
-} catch (err) {
-    console.log(err);
-}
+        return data
+    } catch (err) {
+        console.log(err);
+    }
 })
